@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DWBI World Wide Importers DWDB.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-02T19:03:16.941Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

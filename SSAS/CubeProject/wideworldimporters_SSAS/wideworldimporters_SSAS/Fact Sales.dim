@@ -1,0 +1,475 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9d61dd3b-5f3a-4b81-99a3-dc9a5b89a919" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Sales</ID>
+  <Name>Fact Sales</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e3c43419-5d46-40a9-be27-35f71459acaf">
+    <DataSourceViewID>DWBI World Wide Importers DWDB</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="93c1dddd-4e16-420b-ae95-918ae19614b0">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="ef6816b6-8827-4028-8ece-07819a29020d">
+      <ID>Sales SK</ID>
+      <Name>Sales SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e02e0c26-adaf-457b-bce7-99673646a0a7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22431aa4-6ff0-471a-80eb-01e3483fd6fb">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>SalesSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="33c8c481-9c60-4bc2-85e3-6ad39029508e">
+          <AttributeID>Order Date SK</AttributeID>
+          <Name>Order Date SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6acde9aa-ba6b-4a58-9746-c03df6093ddf">
+          <AttributeID>Payment Methods SK</AttributeID>
+          <Name>Payment Methods SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4c3b1913-cae3-4ce1-bced-e35f18357075">
+          <AttributeID>Packed By Person SK</AttributeID>
+          <Name>Packed By Person SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2ea99323-acc7-4256-b4d1-d66e8f02f59b">
+          <AttributeID>Invoice Date SK</AttributeID>
+          <Name>Invoice Date SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3df90dd5-e1c7-42e2-9282-3e70352bda55">
+          <AttributeID>Salesperson SK</AttributeID>
+          <Name>Salesperson SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bbfd79f0-d0d9-4725-9476-83cb63aed3ce">
+          <AttributeID>Package Type SK</AttributeID>
+          <Name>Package Type SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="256b5c4e-e746-4a16-8e42-c819a05729a1">
+          <AttributeID>Picking Completed When SK</AttributeID>
+          <Name>Picking Completed When SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e662087a-3eae-44ab-b2dc-ac299002cf17">
+          <AttributeID>Transaction Date SK</AttributeID>
+          <Name>Transaction Date SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4f9a1ebd-63f7-4996-be36-5ee7d39deb7c">
+          <AttributeID>Picked By Person SK</AttributeID>
+          <Name>Picked By Person SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6ebee97a-e04f-4bbd-833a-b744b8f9b8b6">
+          <AttributeID>Contact Person SK</AttributeID>
+          <Name>Contact Person SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="07578e6b-73c9-42f7-bdda-1b8a84b80708">
+          <AttributeID>Customer SK</AttributeID>
+          <Name>Customer SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c2d1ff86-69f8-4132-a68c-61ad58da9f18">
+          <AttributeID>Expected Delivery Date SK</AttributeID>
+          <Name>Expected Delivery Date SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31600c78-349e-4804-96f6-abe7aa32ff5b">
+          <AttributeID>Stock Items SK</AttributeID>
+          <Name>Stock Items SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="05165dbd-eef9-4e25-b48b-4c6726cc32f6">
+          <AttributeID>Finalization Date SK</AttributeID>
+          <Name>Finalization Date SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="966e3072-5c10-4f45-8611-993173cf1c13">
+          <AttributeID>Delivery Method SK</AttributeID>
+          <Name>Delivery Method SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="41a9ea85-77b4-4dd4-97f2-db1c2ac519d6">
+          <AttributeID>Bill To Customer SK</AttributeID>
+          <Name>Bill To Customer SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="63d6aded-9cd1-41b3-9a57-dceb4807a1e7">
+          <AttributeID>Transaction Types SK</AttributeID>
+          <Name>Transaction Types SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b6e51f06-e770-4681-ae11-7a3fe3832abe">
+          <AttributeID>Confirmed Delivery Time SK</AttributeID>
+          <Name>Confirmed Delivery Time SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fdc9858a-13be-459e-b68c-4fcd62405b2d">
+          <AttributeID>Accounts Person SK</AttributeID>
+          <Name>Accounts Person SK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="35f55587-7ec7-4769-9baa-edf9107850a7">
+      <ID>Order Date SK</ID>
+      <Name>Order Date SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8f5b2f8-9d8c-4c45-80b4-00c24d882bbd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e55e874-b42e-4b55-82ff-76e111715151">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>OrderDateSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7debfefb-c227-41b7-a084-9854457dfdee">
+      <ID>Payment Methods SK</ID>
+      <Name>Payment Methods SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f2c860c6-8c05-4a7e-8fa3-12bdbf6df6b2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8047cdd8-b276-455d-9520-3c8f36c897be">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>PaymentMethodsSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="88b6e5dc-0213-4a53-b8f0-5d80f9d89585">
+      <ID>Packed By Person SK</ID>
+      <Name>Packed By Person SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58ed8ff8-7ef9-4b55-8e6d-a9bb0d4bd60c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e03c225-a41f-4e96-a4ab-7d6a1ed5e23d">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>PackedByPersonSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da9ec91f-b698-4520-a9ec-027f6e619ca2">
+      <ID>Invoice Date SK</ID>
+      <Name>Invoice Date SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7ea6234d-95a8-43b5-8c91-11ee06e61f4a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d9d37d8-91f5-4419-acc4-fcf3a7be52cc">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>InvoiceDateSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce570d2e-f020-4d59-a57f-acb142156e15">
+      <ID>Salesperson SK</ID>
+      <Name>Salesperson SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="585b5bd9-50ac-41a7-a3b2-458b224dff80">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82e42cb9-7a6f-4223-9707-bc1109dc8a8c">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>SalespersonSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0b3341d6-6aa8-4f40-95c8-28bb4e637ae0">
+      <ID>Package Type SK</ID>
+      <Name>Package Type SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c719bfd-786c-4131-b795-66a9a3a5de38">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb133803-0ecb-44ff-87cf-80d48e4e72eb">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>PackageTypeSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="72bf4f1d-10be-4156-a845-23c4e0b0203c">
+      <ID>Picking Completed When SK</ID>
+      <Name>Picking Completed When SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9392c139-eadb-4104-af14-295b92ff8839">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94c89b78-df8c-4c6e-abef-da46a2f45421">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>PickingCompletedWhenSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f6e76b3-78ce-4455-adc7-e2b18c466af0">
+      <ID>Transaction Date SK</ID>
+      <Name>Transaction Date SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f9f579e1-e6aa-4789-98f8-84ca5d7ad65f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fa576317-c964-45a2-8567-e70b3d57e367">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>TransactionDateSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6a3690a7-5b96-4544-a191-7e87755a069b">
+      <ID>Picked By Person SK</ID>
+      <Name>Picked By Person SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="22da29c0-0b65-4e8f-8841-94c94d971633">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="27454d3c-daab-41d0-87fb-86c223236258">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>PickedByPersonSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c9d2206b-caba-41ac-a82e-366da77d6f59">
+      <ID>Contact Person SK</ID>
+      <Name>Contact Person SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="434925f7-0830-4d9e-b83c-3d7b9ee5c900">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="423ed249-ae3f-4e53-9cdf-136eda439370">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>ContactPersonSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="64c332cd-1cf3-4d92-a2bd-7d227cd79771">
+      <ID>Customer SK</ID>
+      <Name>Customer SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53047e41-be5e-455b-97bc-c3546910653f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1759ec53-30f6-4811-8887-ebd4a0d40c32">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>CustomerSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d3c19ec1-77a4-4432-8c02-4335e5c0aced">
+      <ID>Expected Delivery Date SK</ID>
+      <Name>Expected Delivery Date SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6c713dfb-7610-44f1-bfae-fb52f1b0069a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d27f55d-8635-4967-8f0e-66ec16b997e2">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>ExpectedDeliveryDateSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="acb414b2-a4b1-4810-a535-b22ab3f52879">
+      <ID>Stock Items SK</ID>
+      <Name>Stock Items SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f86bc6c-be46-458f-91b3-e4ea9baa6d8d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffd9a546-8d8e-4e76-b9cc-4d19b6df883c">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>StockItemsSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a4ce4f1c-6c40-4d9d-8794-66d6a677c078">
+      <ID>Finalization Date SK</ID>
+      <Name>Finalization Date SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d962541-9775-4b8e-8e17-b162db298685">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d05d8c8-d403-4024-81d8-9109b712714a">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>FinalizationDateSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f005f966-8612-4ecb-9c24-1726de1ace28">
+      <ID>Delivery Method SK</ID>
+      <Name>Delivery Method SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7318dbbf-3ef0-44fc-a54a-f936fb27aa46">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0aa62acd-2707-4168-9dec-8bc759246b02">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>DeliveryMethodSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13cefe33-f389-417c-b121-002b468ea886">
+      <ID>Bill To Customer SK</ID>
+      <Name>Bill To Customer SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7c9d122f-1df3-4b3b-a16c-e93358ffdb93">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29973056-d86a-4d8f-a2e2-eacabd14d854">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>BillToCustomerSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="32b196b4-953f-4947-8a2b-c65261b9a561">
+      <ID>Transaction Types SK</ID>
+      <Name>Transaction Types SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8005b877-4ca4-45c9-b02e-6f01ca3862cc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2ad878c-4f1a-4b05-aa9c-01e86280b397">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>TransactionTypesSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="651da928-e7dd-45fd-8959-95d84a703cc7">
+      <ID>Confirmed Delivery Time SK</ID>
+      <Name>Confirmed Delivery Time SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c1e6d549-0ad7-4a6b-93dd-934afb7c8d12">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0d369e1-980c-4ab2-a078-e6dd5c2c7f13">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>ConfirmedDeliveryTimeSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a165db2-d75c-4185-9092-b10ff6f1fb50">
+      <ID>Accounts Person SK</ID>
+      <Name>Accounts Person SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="83c39664-daed-465d-b3b4-035232e44965">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a2e96db-890e-4b45-b860-fbf946e77f0c">
+            <TableID>dbo_Fact_Sales</TableID>
+            <ColumnID>AccountsPersonSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

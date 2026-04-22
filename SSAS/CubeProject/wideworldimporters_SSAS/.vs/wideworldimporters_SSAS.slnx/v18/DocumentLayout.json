@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Cities.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Cities.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Stock Groups.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Stock Groups.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim People.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim People.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Package Type.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Package Type.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Stock Items.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Stock Items.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Payment Methods.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Payment Methods.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Transaction Types.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Transaction Types.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Delivery Methods.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Delivery Methods.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Supplier.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\Dim Supplier.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{275CB4C9-581F-E13C-8755-627802E32AFE}|wideworldimporters_SSAS\\wideworldimporters_SSAS.dwproj|solutionrelative:wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Cities.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Cities.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Cities.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Cities.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Cities.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:19:21.559Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Stock Groups.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Stock Groups.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Stock Groups.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Stock Groups.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Stock Groups.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:18:55.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Customer.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Customer.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Customer.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Customer.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Customer.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:17:35.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim People.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim People.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim People.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim People.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim People.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:16:52.053Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Package Type.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Package Type.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Package Type.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Package Type.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Package Type.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:16:07.614Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DWBI World Wide Importers DWDB.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-02T19:03:16.941Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Stock Items.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Stock Items.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Stock Items.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Stock Items.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Stock Items.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:15:36.959Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dim Payment Methods.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Payment Methods.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Payment Methods.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Payment Methods.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Payment Methods.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:14:27.763Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Date.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Date.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Date.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:11:10.7Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dim Transaction Types.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Transaction Types.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Transaction Types.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Transaction Types.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Transaction Types.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:13:40.282Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dim Delivery Methods.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Delivery Methods.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Delivery Methods.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Delivery Methods.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Delivery Methods.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:12:54.067Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dim Supplier.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Supplier.dim",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\Dim Supplier.dim",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\Dim Supplier.dim [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\Dim Supplier.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T13:07:20.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DWBI World Wide Importers DWDB.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.dsv",
+              "RelativeDocumentMoniker": "wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.dsv",
+              "ToolTip": "C:\\Users\\pkmpp\\source\\repos\\wideworldimporters_SSAS\\wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.dsv [Design]",
+              "RelativeToolTip": "wideworldimporters_SSAS\\DWBI World Wide Importers DWDB.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T12:53:22.856Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

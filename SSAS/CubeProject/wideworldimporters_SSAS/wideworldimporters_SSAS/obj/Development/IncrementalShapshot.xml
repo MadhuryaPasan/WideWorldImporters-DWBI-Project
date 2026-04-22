@@ -1,0 +1,152 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>wideworldimporters_SSAS</Database>
+    <Server>ACERASPIRE5\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=ACERASPIRE5\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>zcGwOf++HV1YxCgOgOvmMAAzELc=01-Apr-26 5:15:35 PM01-Apr-26 5:15:35 PM</TimeStamp>
+        <ID>
+          <String>DWBI World Wide Importers DWDB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>2JtJJ2Zgw7+XBfVPTHeRIYJQtMs=02-Apr-26 11:12:05 PM01-Apr-26 5:22:49 PM</TimeStamp>
+        <ID>
+          <String>DWBI World Wide Importers DWDB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9qzTGolxdqiS/ck2IzlvAE3MY1w=02-Apr-26 10:31:21 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OEsYqOxmT0K3u6g/NsfvViD7yLk=02-Apr-26 10:45:16 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qzXl5CnfXfW0MaIKiRRD84idSuM=01-Apr-26 5:47:42 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Delivery Methods</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>a+6vwect+v5o7PsDSvliccBHijg=01-Apr-26 5:48:42 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Transaction Types</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aRY01OylkbovddUnr2QVJmRXCnM=01-Apr-26 5:48:53 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Payment Methods</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MaPy1yz1a/YEYcSozP6ppqbZvrU=01-Apr-26 5:53:10 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Stock Items</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L3CF5dtr2zgrxj0Mhpj15jTDslc=01-Apr-26 5:53:30 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Package Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZqPRPF6XBhB1SOL9x40QY3bcJT8=01-Apr-26 5:53:58 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim People</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zsCVR/rwUjzeicIIv0lb6KI4eBE=01-Apr-26 5:32:36 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Fact Purchases</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pq+g14e/z+hH6NWS6qvOyCiLigQ=02-Apr-26 10:27:10 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LmADzreTbscMSUGZAAZb6F9P+Ok=01-Apr-26 6:02:34 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Fact Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kZhYuk2CEGwX53ebTQ8u1LLoYPI=01-Apr-26 5:55:02 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Stock Groups</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>J5f5I1DwTn42mX94f6VMKIAriDU=02-Apr-26 10:48:31 PM01-Apr-26 5:32:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Cities</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>yNEK+79+hsOSZGh9hBbcXEmBsW0=03-Apr-26 12:38:51 AM03-Apr-26 12:11:11 AMSCrjX1/G6pi9llntg1E0f/6CpUA=03-Apr-26 12:11:12 AM03-Apr-26 12:11:11 AM</TimeStamp>
+        <ID>
+          <String>DWBI World Wide Importers DWDB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>v1kN5JD2Z8CyD8pv3zhwFi4+2Lc=02-Apr-26 12:43:26 AM02-Apr-26 12:41:39 AM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>Pj8kDS0ZBJTIuz7lhEWrjtfYEQA=02-Apr-26 12:43:26 AM01-Apr-26 5:08:36 PM</TimeStamp>
+      <ID>
+        <String>wideworldimporters_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-04-02T19:08:59.876667Z</LastDeployed>
+</DeploymentSnapshot>
